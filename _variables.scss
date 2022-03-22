@@ -1,0 +1,19 @@
+@mixin flexHorizontaly($justify){
+    display:flex;
+    justify-content: $justify;
+    flex-flow: row;
+
+}
+
+@mixin flexVerticaly($justify){
+    display:flex;
+    justify-content: $justify;
+    flex-flow: row;
+
+}
+
+@mixin flexCenter(){
+    display:flex;
+    justify-content: center;
+}
+
